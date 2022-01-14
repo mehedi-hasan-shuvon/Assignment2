@@ -2,8 +2,14 @@
 /* common style or utilites*/
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
 .link-button{
     text-decoration: none;
     background-color: #E02C6D;
@@ -55,6 +61,7 @@ header .container{
 /*------------section 1 style----------------- */
 
 .container{
+    margin: 0;
     display: flex;
     align-items: center;
     padding:5%;
@@ -62,9 +69,9 @@ header .container{
 }
 
 .half-width-left{
-    width: 50%;
+    width: 60%;
     
-    padding-left: 5%;
+    padding-left: 120px;
     
    
 }
@@ -76,11 +83,12 @@ header .container{
 }
 .half-width-right {
     width:50%;
-    padding-left: 20%;
+    padding-left: 30%;
 
 }
 .half-width-left p{
     padding-bottom: 16.1px;
+    
 
 }
 
@@ -95,6 +103,33 @@ header .container{
     
     background-image: url(/media/bg/background.png);
     background-repeat: no-repeat;
-    background-position: 90% -20%;
-    background-size: 32%;
+    background-position: 100% -20%;
+    background-size: 33%;
+}
+
+/*---------------------section 2 styles-------------*/
+.container-2{
+    width: 1047px;
+    height: 1662px;
+    
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-row-gap:2px;
+    justify-items: center;
+    align-items: center;
+}
+
+.single-item{
+    Width :84px;
+    Height:26px;
+    padding-top: 36px;
+    padding-bottom: 34.39px;
+}
+hr {
+    margin: 30px 0;
+    height: 1px;
+    border: none;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, rgba(67, 112, 121, 0.473)));
 }
