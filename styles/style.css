@@ -183,3 +183,40 @@ hr {
     border-radius: 5px;
     margin-top: 30px;
 }
+
+
+/*---------------------------footer style------------------------------*/
+footer{
+    padding-top: 30px;
+}
+.footer-text{
+    background-color: #0A0826;
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footer-navigation-items{
+    display: flex;
+    padding: 0 20px;
+    justify-content: center;
+}
+.footer-navigation-items li{
+    list-style: none;
+   padding:0px;
+}
+.footer-navigation-items li a{
+    text-decoration: none;
+    color: white ;
+    font-weight: 600;
+
+}
+.single-item-footer{
+    width:55px;
+    font-size: 30px;
+    background-color: #5353573b;
+    margin: 5px;
+    border-radius: 100px;
+}
+
