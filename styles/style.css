@@ -32,9 +32,13 @@ header .container{
     margin-top: 0;
 }
 
-.company-name a{
+.company-name a {
     text-decoration: none;
     color: black;
+
+}
+.company-name h2{
+    padding-left: 191px;
 }
 .navigation{
     display: flex;
