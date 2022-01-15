@@ -39,6 +39,13 @@ main{
     cursor:pointer;
 }
 
+.camera{
+    transition: transform 1s;
+}
+.camera:hover{
+    transform: rotate(60deg);
+}
+
 /*----------------------------- Header style--------------------- */
 
 
