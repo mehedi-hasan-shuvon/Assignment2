@@ -156,6 +156,12 @@ header .container{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.single-item1{
+    Width :84px;
+    Height:26px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 hr {
     margin: 30px 0;
     height: 1px;
@@ -312,3 +318,113 @@ footer{
     border-radius: 100px;
 }
 
+
+/*------------------------------Media Queries---------------- */
+/* mobile devices */
+@media only screen and (max-width:688px){
+    body{
+        width: 100%;
+    }
+    header .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        
+        align-items: center;
+     
+    }
+    .company-name h2{
+        padding-left: 0px;
+        font-size: 30px;
+    }
+    .navigation-items{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #special2{
+        padding-left: 40px;
+    }
+    .container{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        flex-direction: column-reverse;
+    }
+    .half-width-left{
+        padding-top: 20px;
+    }
+    .half-width-left h1{
+        font-size: 30px;
+        font-weight: 700;
+        margin: 0px;
+       
+    }
+    .half-width-left p{
+        
+        font-size: 17px;
+        
+        padding-right: 45px;
+       
+    }
+    .link-button{
+        text-decoration: none;
+        background-color: #E02C6D;
+        padding: 10px 10px;
+        color:white;
+        font-weight: 500;
+        border-radius: 41px;
+    
+    }
+    .half-width-right {
+        width: 100%;;
+        padding-left:10px;
+        margin-left: 0;
+        animation: fadeSlide 2s ease 0s 1;
+        align-items: center;
+    
+    }
+    .half-width-right img{
+        
+        padding-left:50px;
+        width: 80%;
+    }
+    .dream-big{
+        width: 100%;
+        background-image: url(/media/bg/background.png);
+        background-repeat: no-repeat;
+        background-position:110% 0%;
+        background-size: 100%;
+        
+    }
+    hr{
+        display: none;
+    }
+
+
+    .container-2{
+        width: 50%;
+        justify-content: baseline;
+          
+    }
+    .items{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap:14px;
+        justify-content: space-around;
+        justify-items: start;
+        align-items: baseline;
+
+        
+    }
+    .single-item1{
+        Width :5%;
+        padding: 0;
+        margin: 0;
+        padding-top: 40px;
+
+    } 
+}
